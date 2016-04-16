@@ -1,4 +1,4 @@
-import org.gicentre.utils.gui.*;    // For text input.
+import org.gicentre.utils.*;    // For text input.
 
 PImage worldMap;
 Table airportLocation;
@@ -52,49 +52,6 @@ void draw()
     ellipse(x,y,1.5,1.5);
     
   }
-  
-  //for(int row = 0; row<30050; row++)
-  //{
-  //  TableRow sRow = airportLocation.findRow(routes.getString(row, "Start"), "FAA");
-  //  TableRow fRow = airportLocation.findRow(routes.getString(row, "Finish"), "FAA");
-    
-  //  println(row);
-  //  println(sRow.getString("FAA"));
-  
-  //  if(fRow.getString("FAA") == null)
-  //  {
-  //    println("null");
-  //  }
-    
-  //}
-  //int counter = 0;
-  
-  
-  //ALL POSSIBLE ROUTES
-  //for(int row = 0; row<routes.getRowCount(); row++)
-  //{
-  //  //String s = routes.getString(row, "Start");
-  //  String s = routes.getString(row, "Start");
-  //  String f = routes.getString(row, "Finish");
-    
-  //  TableRow startResults = airportLocation.findRow(s, "FAA");
-  //  TableRow finishResults = airportLocation.findRow(f, "FAA");
-    
-  //  println(startResults + " " + row + " " + finishResults);
-        
-  //  if(startResults == null || finishResults == null)
-  //  {
-  //    println("Double Null");
-  //  }
-  //  else 
-  //  {
-  //    drawEdge(s,f);
-  //    counter++;
-  //    println("COUNT: " + counter);
-  //    println("ROUTE: " + s + " -> " + f);
-  //  }
-    
-  //}
   
   // Draw user input area
   strokeWeight(0.1);
