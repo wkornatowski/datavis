@@ -9,6 +9,7 @@ String finish;
 TextInput textInput;    // User input.
 boolean isFinished;
 String startAirport;
+String mouseMovedMsg="";
 
 void setup()
 {
@@ -35,7 +36,7 @@ void draw()
   // Draw the background image taking up the full width and height of sketch.
   image(worldMap,0,0,width,height);
   filter(INVERT);
-    
+  
   // Set the appearance of the data circles.
   fill(192,0,0);
   noStroke();
@@ -77,6 +78,7 @@ void draw()
            {
              
              TableRow finishResults = airportLocation.findRow(routes.getString(row, "Finish"), "FAA");
+             TableRow startResults = airportLocation.findRow(startAirport, "FAA");
              
              if(finishResults == null)
              {
@@ -87,13 +89,30 @@ void draw()
                println(startAirport);
                println(routes.getString(row, "Finish"));
                drawEdge(startAirport, routes.getString(row, "Finish"));
+                
+                strokeWeight(0.1);
+                stroke(0);
+                fill(255,255,255);
+                rect(740,920,500,150,8);
+                textAlign(LEFT, TOP);
+                fill(0);
+                text("Airport: " + startResults.getString("Name") + 
+                     "\n" + 
+                     "City: " + startResults.getString("City") +
+                     "\n" +
+                     "Country: " + startResults.getString("Country") +
+                     "\n" + 
+                     "IATA: " + startResults.getString("FAA") +
+                     "\n" +
+                     "Timezone: " + startResults.getString("Timezone"),760,930);
+               loop();
+               
              }
            }
   
       }
   
   }
-  
   noLoop();
 }
 
@@ -143,4 +162,9 @@ void keyPressed()
   }
   
   loop();
+}
+
+void mouseMoved()
+{
+  mouseMovedMsg ="The mouse has been moved from "+pmouseX+","+pmouseY+" to "+mouseX+","+mouseY;
 }
