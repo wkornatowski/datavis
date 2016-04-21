@@ -13,11 +13,7 @@ void keyPressed()
       startAirport = textInput.getText();
     }
   }
+  if (key == 's') save("flights.png");
   
   loop();
-}
-
-void mouseMoved()
-{
-  mouseMovedMsg ="The mouse has been moved from "+pmouseX+","+pmouseY+" to "+mouseX+","+mouseY;
 }

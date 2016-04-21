@@ -1,12 +1,6 @@
 void loadRoutes()
 {
-  if(isFinished == false)
-  {
-  textInput.draw(10,40);
-  }
   
-  else
-  {
     //FIND "Start" LHR and get all possible finish routes.
     for(int row = 0; row<routes.getRowCount(); row++)
       {
@@ -22,8 +16,8 @@ void loadRoutes()
              }
              else
              {
-               println(startAirport);
-               println(routes.getString(row, "Finish"));
+               //println(startAirport);
+               //println(routes.getString(row, "Finish"));
                drawEdge(startAirport, routes.getString(row, "Finish"));
                 
                 strokeWeight(0.1);
@@ -42,30 +36,25 @@ void loadRoutes()
                      "\n" +
                      "Timezone: " + startResults.getString("Timezone"),760,930);
                
-               
              }
            }
-  
       }
-  
-  }  
 }
-
+     
 void loadLocations()
 {
-  int counter = 0;
+  //int counter = 0;
   for (TableRow row : airportLocation.rows())
   {
     
     float latitude  = row.getFloat("Latitude");
     float longitude = row.getFloat("Longitude");
-    float x = map(longitude,-180,180,0,width);
-    float y = map(latitude,-60,85,height,0); 
-    counter++;
-    println(counter);
+    float x = map(longitude,geoMap.getMinGeoX(),geoMap.getMaxGeoX(),0,width);
+    float y = map(latitude,geoMap.getMinGeoY(),geoMap.getMaxGeoY(),height,0); 
+    //counter++;
+    //println(counter);
     ellipse(x,y,1.5,1.5);
     
   }
-  
   
 }

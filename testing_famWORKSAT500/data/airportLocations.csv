@@ -1315,6 +1315,12 @@ Dawu,Lvliang,China,LLV,\N,37.683333,111.142778,3020,8,N,41
 Yading Daocheng,Daocheng,China,DCY,ZUDC,29.3231,100.0533,14472,8,N,41
 Gannan,Xiahe city,China,GXH,ZLXH,34.4909,102.3719,10466,8,N,41
 Nalati,Xinyuan,China,NLT,ZWNL,43.433056,83.380278,0,8,U,41
+Daqing ,Daqing ,China,DQA,,46.746986,125.13399,,,,41
+Anshan ,Anshan ,China,AOG,,41.103523,123.857834,,,,41
+An Shun,An Shun,China,AVA,,26.26005,105.87281,,,,41
+Chizhou ,Chizhou ,China,JUH,,30.766115,117.73568,,,,41
+Libo City,Libo City,China,LLB,,25.452477,107.961914,,,,41
+Yichun ,Yichun ,China,LDS,,47.751827,129.01799,,,,41
 Christmas Island,Christmas Island,Christmas Island,XCH,YPXM,-10.450556,105.690278,916,7,U,42
 Cocos Keeling Island Airport,Cocos Keeling Island,Cocos (Keeling) Islands,CCK,YPCC,-12.1883,96.8339,10,6.5,U,43
 El Eden,Armenia,Colombia,AXM,SKAR,4.452775,-75.766447,3990,-5,U,44
@@ -1384,6 +1390,9 @@ Prince Said Ibrahim,Moroni,Comoros,HAH,FMCH,-11.533661,43.27185,93,3,U,45
 Bandaressalam,Moheli,Comoros,NWA,FMCI,-12.298108,43.7664,46,3,U,45
 Ouani,Anjouan,Comoros,AJN,FMCV,-12.131667,44.430279,62,3,U,45
 Iconi Airport,Moroni,Comoros,YVA,FMCN,-11.7108,43.2439,33,3,U,45
+Kongolo,Kongolo,Congo,KOO,,-5.394122,26.990873,,,,46
+Boende ,Boende ,Congo,BNB,,-0.286845,20.883972,,,,46
+Beni ,Beni ,Congo,BNC,,0.577121,29.47018,,,,46
 Maya Maya,Brazzaville,Congo (Brazzaville),BZV,FCBB,-4.2517,15.253031,1048,1,N,46
 Pointe Noire,Pointe-noire,Congo (Brazzaville),PNR,FCPP,-4.816028,11.886597,55,1,N,46
 Loubomo Airport,Loubomo,Congo (Brazzaville),DIS,FCPL,-4.2,12.7,1079,1,N,46
@@ -1550,6 +1559,7 @@ Nueva Loja Airport,Lago Agrio,Ecuador,LGQ,SELA,0.093056,-76.8675,980,-5,U,59
 Cotopaxi International Airport,Latacunga,Ecuador,LTX,\N,-0.5425,-78.3657,9205,-5,S,59
 Tiputini,Tiputini,Ecuador,TPN,SETI,-0.766667,-75.53333,997,-5,S,59
 Shell Mera,Pastaza,Ecuador,PTZ,SESM,-2,-77,7076,-5,S,59
+Santa Rosa,Santa Rosa,Ecuador,ETR,,-3.43516,-79.977816,,,,59
 Alexandria Intl,Alexandria,Egypt,ALY,HEAX,31.183903,29.948889,-6,2,U,60
 Abu Simbel,Abu Simbel,Egypt,ABS,HEBL,22.375953,31.611722,616,2,U,60
 Cairo Intl,Cairo,Egypt,CAI,HECA,30.121944,31.405556,382,2,U,60
@@ -1611,6 +1621,7 @@ Debre Tabor Airport,Debre Tabor,Ethiopia,DBT,HADT,11.966667,38,7740,3,U,65
 Harar Meda Airport,Debre Zeyit,Ethiopia,QHR,HAHM,8.7163,39.0059,8850,3,U,65
 Robe Airport,Goba,Ethiopia,GOB,HAGB,6.733333,44.266667,4000,3,U,65
 Humera Airport,Humera,Ethiopia,HUE,HAHU,14.3,36.616667,1500,3,U,65
+Semera ,Semera ,Ethiopia,SZE,,11.787483,40.991722,,,,66
 Mount Pleasant,Mount Pleasant,Falkland Islands,MPN,EGYP,-51.822777,-58.447222,244,-3,U,66
 Stanley Airport,Stanley,Falkland Islands,PSY,SFAL,-51.685672,-57.777644,75,-3,U,66
 Vagar,Vagar,Faroe Islands,FAE,EKVG,62.063628,-7.277219,280,0,E,67
@@ -2052,6 +2063,20 @@ Alluitsup Paa Heliport,Alluitsup Paa,Greenland,LLU,BGAP,60.4644,-45.5778,89,-3,E
 Tasiilaq,Angmagssalik,Greenland,AGM,BGAM,65.612222,-37.618333,24,-3,U,80
 Ittoqqortoormiit Heliport,Ittoqqortoormiit,Greenland,OBY,BGSC,70.485278,-21.966667,238,-1,U,80
 Uummannaq Heliport,Uummannaq,Greenland,UMD,BGUM,70.4047,52.0702,5,-4,E,80
+Isortoq ,Isortoq ,Greenland,IOQ,,65.54779,-38.97655,,,,80
+Kuummiit ,Kuummiit ,Greenland,KUZ,,65.86413,-36.998,,,,80
+Sermiligaaq ,Sermiligaaq ,Greenland,SGG,,65.90608,-36.378273,,,,80
+Tiniteqilaaq ,Tiniteqilaaq ,Greenland,TQI,,65.89201,-37.783348,,,,80
+Aappilattoq ,Aappilattoq ,Greenland,AOQ,,72.88704 ,-55.596146,,,,80
+Ikerasak ,Ikerasak ,Greenland,IKE,,70.498146 ,-51.303085,,,,80
+Saattut ,Saattut ,Greenland,SAE,,70.811455,-51.632145,,,,80
+Illorsuit ,Illorsuit ,Greenland,IOT,,71.24194,-53.562878,,,,80
+Nuugaatsiaq ,Nuugaatsiaq ,Greenland,JUU,,71.53877 ,-53.205036,,,,80
+Innarsuit ,Innarsuit ,Greenland,IUI,,73.1999,-56.01082,,,,80
+Tasiusaq,Tasiusaq,Greenland,TQA,,73.373055, -56.06028,,,,80
+Eqalugaarsuit ,Eqalugaarsuit ,Greenland,QFG,,60.62015 ,-45.913254,,,,80
+Qassimiut ,Qassimiut ,Greenland,QJH,,60.780876,-47.15595,,,,80
+Ammassivik,Ammassivik,Greenland,QUW,,60.59614,-45.377453,,,,80
 Point Salines Intl,Point Salines,Grenada,GND,TGPY,12.004247,-61.786192,41,-4,U,81
 Lauriston Airport,Carriacou Island,Grenada,CRU,,12.4761,-61.4728,0,-4,U,81
 Grand Case,St. Martin,Guadeloupe,SFG,TFFG,18.099914,-63.047197,7,-4,U,82
@@ -2365,6 +2390,11 @@ Gorgan Airport,Gorgan,Iran,GBT,OING,36.909381,54.401339,-24,3.5,E,95
 Sahand Airport,Maragheh,Iran,ACP,OITM,37.348017,46.127903,4396,3.5,E,95
 Persian Gulf Airport,Khalije Fars,Iran,PGU,OIBP,27.379444,52.7375,27,3.5,U,95
 Yasuj Airport,Yasuj,Iran,YES,OISY,30.700556,51.545,5939,3.5,U,95
+Zabol ,Zabol ,Iran,ACZ,,31.087694,61.542244,,,,95
+Dezful ,Dezful ,Iran,DEF,,32.438828,48.38468,,,,95
+Lamerd ,Lamerd ,Iran,LFM,,27.369392,53.195354,,,,95
+Gachsaran ,Gachsaran ,Iran,GCH,,30.3364,50.831657,,,,95
+Khoy ,Khoy ,Iran,KHY,,38.42156,44.97413,,,,95
 Basrah Intl,Basrah,Iraq,BSR,ORMM,30.549069,47.662142,11,3,U,96
 Kirkuk AB,Kirkuk,Iraq,KIK,ORKK,35.17,44.3483,1061,3,N,96
 Erbil Intl,Erbil,Iraq,EBL,ORER,36.237611,43.963158,1341,3,U,96
@@ -2575,6 +2605,7 @@ Zhezkazgan Airport,Zhezkazgan,Kazakhstan,DZN,UAKD,47.708333,67.733333,1250,6,U,1
 Kokshetau Airport,Kokshetau,Kazakhstan,KOV,UACK,53.3291,69.5946,900,6,U,106
 Arkalyk Airport,Arkalyk,Kazakhstan,AYK,UAUR,50.2395,66.941,1152,6,U,106
 Taldykorgan Airport,Taldykorgan,Kazakhstan,TDK,UAAT,45.016667,78.366667,1969,6,U,106
+Zaisan ,Zaisan ,Kazakhstan,SZI,,47.48725,84.88725,,,,106
 Eldoret Intl,Eldoret,Kenya,EDL,HKEL,0.404458,35.238928,6941,3,U,107
 Kisumu,Kisumu,Kenya,KIS,HKKI,-0.086139,34.728892,3796,3,U,107
 Kitale,Kitale,Kenya,KTL,HKKT,0.971989,34.958556,6070,3,U,107
@@ -2930,6 +2961,7 @@ Saniat Rmel,Tetouan,Morocco,TTU,GMTN,35.594333,-5.320019,10,0,N,141
 Ibn Batouta,Tanger,Morocco,TNG,GMTT,35.726917,-5.916889,62,0,N,141
 El Aroui Airport,El Aroui,Morocco,NDR,GMMW,34.9888,-3.02821,574,0,N,141
 Mogador Airport,Essadouira,Morocco,ESU,GMMI,31.3975,-9.681667,384,0,N,141
+Goulimime ,Goulimime ,Morocco,GLN,,29.016666,-10.066667,,,,141
 Beira,Beira,Mozambique,BEW,FQBR,-19.796419,34.907556,33,2,U,142
 Inhambane,Inhambane,Mozambique,INH,FQIN,-23.876431,35.408544,30,2,U,142
 Lichinga,Lichinga,Mozambique,VXC,FQLC,-13.273986,35.266262,4505,2,U,142
@@ -3300,6 +3332,7 @@ Aiome,Aiome,Papua New Guinea,AIE,\N,-5.8,144.44,350,10,U,163
 Simbai,Simbai,Papua New Guinea,SIM,\N,-4,144,5450,10,U,163
 Ambunti,Ambunti,Papua New Guinea,AUJ,\N,-4.15,142.51,160,10,U,163
 Popondetta,Popondetta,Papua New Guinea,EIA,\N,-8.199999809,147.8500061,311,10,U,163
+Bulolo ,Bulolo ,Papua New Guinea,BUL,,-7.189722,146.64778,,,,163
 Silvio Pettirossi Intl,Asuncion,Paraguay,ASU,SGAS,-25.23985,-57.519133,292,-4,S,164
 Ciudad del Este,Ciudad del Este,Paraguay,AGT,SGES,-25.4555,-54.843592,846,-4,S,164
 Dr. Augusto Roberto Fuster International Airport,Pedro Juan Caballero,Paraguay,PJC,SGPJ,-22.641389,-55.829722,1873,-4,U,164
@@ -3977,6 +4010,7 @@ Sun Moon Lake Airport,Sun Moon Lake,Taiwan,SMT,\N,23.8833,120.933,2405,8,U,200
 Dushanbe,Dushanbe,Tajikistan,DYU,UTDD,38.543333,68.825,2575,5,U,201
 Khudzhand Airport,Khudzhand,Tajikistan,LBD,UTDL,40.2154,69.6947,1450,5,U,201
 Kulob Airport,Kulyab,Tajikistan,TJU,UTDK,37.981667,69.799444,2293,5,U,201
+Kurgon-Tyube ,Kurgon-Tyube ,Tajikistan,KQT,,37.865623,68.86513,,,,201
 Arusha,Arusha,Tanzania,ARK,HTAR,-3.367794,36.633333,4550,3,U,202
 Mwalimu Julius K Nyerere Intl,Dar Es Salaam,Tanzania,DAR,HTDA,-6.878111,39.202625,182,3,U,202
 Dodoma,Dodoma,Tanzania,DOD,HTDO,-6.170436,35.752578,3637,3,U,202
@@ -5758,6 +5792,8 @@ Akiak,Alaska,United States,AKI,,60.905556,-161.22333,,,,216
 Akiachak ,Alaska,United States,KKI,,60.906944,-161.42223,,,,216
 Napaskiak ,Alaska,United States,PKA,,60.710835,-161.75806,,,,216
 Lake Minchumina,Alaska,United States,LMA,,63.88333 ,-152.31667,,,,216
+Farewell Lake,Alaska,United States,TNW,,62.666195,-153.7112,,,,216
+Ogden ,Utah,United States,OGD,,41.19639,-112.01083,,,,216
 Carrasco Intl,Montevideo,Uruguay,MVD,SUMU,-34.838417,-56.030806,105,-3,S,217
 Nueva Hesperides Intl,Salto,Uruguay,STY,SUSO,-31.438481,-57.985294,187,-3,S,217
 El Jaguel / Punta del Este Airport,Maldonado,Uruguay,MDO,SUPE,-34.917,-54.917,66,-3,S,217
@@ -5902,39 +5938,3 @@ Kariba Intl,Kariba,Zimbabwe,KAB,FVKB,-16.519761,28.884981,1706,2,U,228
 Masvingo Intl,Masvingo,Zimbabwe,MVZ,FVMV,-20.055333,30.859111,3595,2,U,228
 Gweru Thornhill,Gwert,Zimbabwe,GWE,FVTL,-19.436394,29.861911,4680,2,U,228
 Hwange National Park,Hwange National Park,Zimbabwe,WKM,FVWN,-18.629872,27.021042,3543,2,U,228
-Goulimime ,Goulimime ,Morocco,GLN,,29.016666,-10.066667,,,,
-Kongolo,Kongolo,Congo,KOO,,-5.394122,26.990873,,,,
-Boende ,Boende ,Congo,BNB,,-0.286845,20.883972,,,,
-Beni ,Beni ,Congo,BNC,,0.577121,29.47018,,,,
-Daqing ,Daqing ,China,DQA,,46.746986,125.13399,,,,
-Bulolo ,Bulolo ,Papua New Guinea,BUL,,-7.189722,146.64778,,,,
-Anshan ,Anshan ,China,AOG,,41.103523,123.857834,,,,
-An Shun,An Shun,China,AVA,,26.26005,105.87281,,,,
-Chizhou ,Chizhou ,China,JUH,,30.766115,117.73568,,,,
-Libo City,Libo City,China,LLB,,25.452477,107.961914,,,,
-Yichun ,Yichun ,China,LDS,,47.751827,129.01799,,,,
-Zaisan ,Zaisan ,Kazakhstan,SZI,,47.48725,84.88725,,,,
-Kurgon-Tyube ,Kurgon-Tyube ,Tajikistan,KQT,,37.865623,68.86513,,,,
-Zabol ,Zabol ,Iran,ACZ,,31.087694,61.542244,,,,
-Dezful ,Dezful ,Iran,DEF,,32.438828,48.38468,,,,
-Lamerd ,Lamerd ,Iran,LFM,,27.369392,53.195354,,,,
-Gachsaran ,Gachsaran ,Iran,GCH,,30.3364,50.831657,,,,
-Khoy ,Khoy ,Iran,KHY,,38.42156,44.97413,,,,
-Santa Rosa,Santa Rosa,Ecuador,ETR,,-3.43516,-79.977816,,,,
-Farewell Lake,Alaska,United States,TNW,,62.666195,-153.7112,,,,
-Semera ,Semera ,Ethiopia,SZE,,11.787483,40.991722,,,,
-Ogden ,Utah,United States,OGD,,41.19639,-112.01083,,,,
-Isortoq ,Isortoq ,Greenland,IOQ,,65.54779,-38.97655,,,,
-Kuummiit ,Kuummiit ,Greenland,KUZ,,65.86413,-36.998,,,,
-Sermiligaaq ,Sermiligaaq ,Greenland,SGG,,65.90608,-36.378273,,,,
-Tiniteqilaaq ,Tiniteqilaaq ,Greenland,TQI,,65.89201,-37.783348,,,,
-Aappilattoq ,Aappilattoq ,Greenland,AOQ,,72.88704 ,-55.596146,,,,
-Ikerasak ,Ikerasak ,Greenland,IKE,,70.498146 ,-51.303085,,,,
-Saattut ,Saattut ,Greenland,SAE,,70.811455,-51.632145,,,,
-Illorsuit ,Illorsuit ,Greenland,IOT,,71.24194,-53.562878,,,,
-Nuugaatsiaq ,Nuugaatsiaq ,Greenland,JUU,,71.53877 ,-53.205036,,,,
-Innarsuit ,Innarsuit ,Greenland,IUI,,73.1999,-56.01082,,,,
-Tasiusaq,Tasiusaq,Greenland,TQA,,73.373055, -56.06028,,,,
-Eqalugaarsuit ,Eqalugaarsuit ,Greenland,QFG,,60.62015 ,-45.913254,,,,
-Qassimiut ,Qassimiut ,Greenland,QJH,,60.780876,-47.15595,,,,
-Ammassivik,Ammassivik,Greenland,QUW,,60.59614,-45.377453,,,,
