@@ -1,5 +1,3 @@
-
-
 void drawEdge(String id1, String id2)
 {
   TableRow airport1 = airportLocation.findRow(id1, "FAA");

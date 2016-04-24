@@ -1,6 +1,6 @@
 void loadRoutes()
 {
-  
+    int routeCount = 0;
     //FIND "Start" LHR and get all possible finish routes.
     for(int row = 0; row<routes.getRowCount(); row++)
       {
@@ -19,11 +19,11 @@ void loadRoutes()
                //println(startAirport);
                //println(routes.getString(row, "Finish"));
                drawEdge(startAirport, routes.getString(row, "Finish"));
-                
+               routeCount++;
                 strokeWeight(0.1);
                 stroke(0);
                 fill(255,255,255);
-                rect(740,920,300,150,8);
+                rect(width/2-100,height-160,300,150,8);
                 textAlign(LEFT, TOP);
                 fill(0);
                 text("Airport: " + startResults.getString("Name") + 
@@ -34,7 +34,9 @@ void loadRoutes()
                      "\n" + 
                      "IATA: " + startResults.getString("FAA") +
                      "\n" +
-                     "Timezone: " + startResults.getString("Timezone"),760,930);
+                     "Timezone: " + startResults.getString("Timezone") +
+                     "\n" +
+                     "Destinations Available: " + routeCount,width/2-95,height-160);
                
              }
            }

@@ -16,8 +16,8 @@ String mouseMovedMsg="";
 
 void setup()
 {
-  //size(1920,1080);
-  fullScreen();
+  size(1920,1080);
+  //fullScreen();
   geoMap = new GeoMap(this);
   geoMap.readFile("world");
    
@@ -37,24 +37,21 @@ void setup()
 
 void draw()
 {
-  // Draw the background image taking up the full width and height of sketch.
-  //image(worldMap,0,0,width,height);
-  //filter(INVERT);
-  
   background(0);  // Ocean colour
   stroke(255);               // Boundary colour
   fill(43,43,43);          // Land colour
 
   geoMap.draw();
+  
   int id = geoMap.getID(mouseX, mouseY);
   if (id != -1)
-  {
-    fill(180, 120, 120);
-    geoMap.draw(id);
-    String name = geoMap.getAttributes().getString(id, 3);
-    fill(255);
-    text(name, mouseX+5, mouseY-5);
-  }
+    {
+      fill(180, 120, 120);
+      geoMap.draw(id);
+      String name = geoMap.getAttributes().getString(id, 3);
+      fill(255);
+      text(name, mouseX+5, mouseY-5);
+    }
   
   // Set the appearance of the data circles.
   fill(192,0,0);
