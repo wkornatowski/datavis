@@ -31,7 +31,7 @@ void loadRoutes()
                      "City: " + startResults.getString("City") +
                      "\n" +
                      "Country: " + startResults.getString("Country") +
-                     "\n" + 
+                     "\n" +
                      "IATA: " + startResults.getString("FAA") +
                      "\n" +
                      "Timezone: " + startResults.getString("Timezone") +

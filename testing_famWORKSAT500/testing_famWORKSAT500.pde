@@ -46,7 +46,7 @@ void draw()
   int id = geoMap.getID(mouseX, mouseY);
   if (id != -1)
     {
-      fill(180, 120, 120);
+      fill(88, 116, 152);
       geoMap.draw(id);
       String name = geoMap.getAttributes().getString(id, 3);
       fill(255);
@@ -67,7 +67,7 @@ void draw()
   
   textAlign(LEFT,TOP);
   fill(0);
-  text("Airport IATA code: ",10,10);
+  text("Airport IATA/FFA code: ",10,10);
   
   if(isFinished == false)
   {
