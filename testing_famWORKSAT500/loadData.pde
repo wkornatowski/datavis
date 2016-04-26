@@ -22,6 +22,14 @@ void loadRoutes()
           else 
           {
             drawEdge(s, f);
+            routeCount++;
+             strokeWeight(0.1);
+             stroke(0);
+             fill(255, 255, 255);
+             rect(width/2-100, height-60, 300, 50, 8);
+             textAlign(LEFT, TOP);
+             fill(0);
+             text("Destinations Available: " + routeCount, width/2-95, height-60);
           }
           
         }

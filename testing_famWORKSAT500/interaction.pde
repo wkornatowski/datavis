@@ -10,7 +10,7 @@ void keyPressed()
     if (!isFinished) 
     {
       textInput.keyPressed();
-      if(textInput.getText().equals("EVER"))
+      if(textInput.getText().equals("EVERTHING") || textInput.getText().equals("everything") || textInput.getText().equals("Everything"))
         all = true;
       else
        startAirport = textInput.getText();
