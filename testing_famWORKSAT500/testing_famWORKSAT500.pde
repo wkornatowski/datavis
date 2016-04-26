@@ -13,6 +13,7 @@ TextInput textInput;    // User input.
 boolean isFinished;
 String startAirport;
 boolean all = false;
+boolean help = false;
 String mouseMovedMsg="";
 
 void setup()
@@ -78,6 +79,7 @@ void draw()
   else
   {
     loadRoutes();
+    drawHelp();
   }
   
   //loadRoutes();

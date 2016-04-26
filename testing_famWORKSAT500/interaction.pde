@@ -12,6 +12,10 @@ void keyPressed()
       textInput.keyPressed();
       if(textInput.getText().equals("EVERTHING") || textInput.getText().equals("everything") || textInput.getText().equals("Everything"))
         all = true;
+      if(textInput.getText().equals("HELP") || textInput.getText().equals("help") || textInput.getText().equals("Help"))
+      {
+        help = true;
+      }
       else
        startAirport = textInput.getText();
     }

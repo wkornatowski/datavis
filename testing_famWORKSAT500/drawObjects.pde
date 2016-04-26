@@ -36,7 +36,15 @@ void drawEdge(String id1, String id2)
   //stroke(((c+c1)/5), 100-((c+c1)/6), 100-((c+c1)/2));
   stroke(57, 255, 20);
   strokeWeight(0.3);
-  bezier(x1, y1, cx, cy, x2, y2, x2, y2);
+  bezier(x1, y1, cx, cy, x2, y2, x2, y2); 
   
- 
+}
+
+void drawHelp()
+{
+   if(help == true)
+   {
+     println("Help"); 
+     
+   }
 }
