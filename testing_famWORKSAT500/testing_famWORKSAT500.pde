@@ -12,6 +12,7 @@ String finish;
 TextInput textInput;    // User input.
 boolean isFinished;
 String startAirport;
+boolean all = false;
 String mouseMovedMsg="";
 
 void setup()

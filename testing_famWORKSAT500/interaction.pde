@@ -3,14 +3,17 @@ void keyPressed()
   if ((key == RETURN) || (key == ENTER))
   {
     isFinished = !isFinished;
-    textInput.setText(null);
+    //textInput.setText(null);
   }
   else
   {
     if (!isFinished) 
     {
       textInput.keyPressed();
-      startAirport = textInput.getText();
+      if(textInput.getText().equals("EVER"))
+        all = true;
+      else
+       startAirport = textInput.getText();
     }
   }
   if (key == 's') save("flights.png");
