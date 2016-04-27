@@ -59,6 +59,7 @@ void drawHelp()
       + "\n" + "\u2022 Type \"everything\" for all \n possbible routes, please \n allow loading time. "
       + "\n" + "\u2022 Hover over countries to view \n names. "
       + "\n" + "\u2022 Press ENTER again to \n start typing your IATA/FAA "
+      + "\n" + "\u2022 IATA/FAA code must be \n in capitals! "
       ,10,80);
      
    }
