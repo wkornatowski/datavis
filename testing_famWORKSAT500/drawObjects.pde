@@ -46,5 +46,20 @@ void drawHelp()
    {
      println("Help"); 
      
+      strokeWeight(0.1);
+      stroke(0);
+      fill(255,255,255);
+      rect(5,80,215,300,8);
+      
+      textAlign(LEFT,TOP);
+      fill(0);
+      text("Directions: "
+      + "\n" + "\u2022 Red Circles = Airport Locations "
+      + "\n" + "\u2022 Green Curves = Airport Routes "
+      + "\n" + "\u2022 Type \"everything\" for all \n possbible routes, please \n allow loading time. "
+      + "\n" + "\u2022 Hover over countries to view \n names. "
+      + "\n" + "\u2022 Press ENTER again to \n start typing your IATA/FAA "
+      ,10,80);
+     
    }
 }

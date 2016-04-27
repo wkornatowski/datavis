@@ -69,13 +69,20 @@ void draw()
   
   textAlign(LEFT,TOP);
   fill(0);
-  text("Airport IATA/FFA code: ",10,10);
+  text("Airport IATA/FFA code or \"Help\": ",10,10);
   
+  
+  //if(isFinished == false && help == true)
+  //{
+  //textInput.draw(10,40);
+  //}
+  //else {
+  //  drawHelp();
+  //}
   if(isFinished == false)
   {
   textInput.draw(10,40);
   }
-  
   else
   {
     loadRoutes();

@@ -3,7 +3,7 @@ void keyPressed()
   if ((key == RETURN) || (key == ENTER))
   {
     isFinished = !isFinished;
-    //textInput.setText(null);
+    textInput.setText(null);
   }
   else
   {
@@ -12,12 +12,17 @@ void keyPressed()
       textInput.keyPressed();
       if(textInput.getText().equals("EVERTHING") || textInput.getText().equals("everything") || textInput.getText().equals("Everything"))
         all = true;
-      if(textInput.getText().equals("HELP") || textInput.getText().equals("help") || textInput.getText().equals("Help"))
+      else if(textInput.getText().equals("HELP") || textInput.getText().equals("help") || textInput.getText().equals("Help"))
       {
         help = true;
+        
       }
-      else
-       startAirport = textInput.getText();
+      else 
+       {
+         startAirport = textInput.getText();
+         all = false;
+         help = false;
+       }
     }
   }
   if (key == 's') save("flights.png");
