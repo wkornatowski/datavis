@@ -1,15 +1,13 @@
-import org.gicentre.utils.*;    // For text input.
+import org.gicentre.utils.*;    
 import org.gicentre.geomap.*;
 
 GeoMap geoMap;
-
-//PImage worldMap;
 Table airportLocation;
 Table routes;
 int startAir = 1;
 String start;
 String finish;
-TextInput textInput;    // User input.
+TextInput textInput;    
 boolean isFinished;
 String startAirport;
 boolean all = false;
@@ -22,17 +20,12 @@ void setup()
   //fullScreen();
   geoMap = new GeoMap(this);
   geoMap.readFile("world");
-   
-  // Load the background map.
-  //worldMap = loadImage("worldCountries.png");
-  
-  //Font
+
   PFont font = createFont("sans-serif",14);
   textFont(font);
   textInput = new TextInput(this,font,14);
   isFinished = false;
-   
-  // Load data from table
+
   airportLocation = loadTable("airportLocations.csv","header,csv");
   routes = loadTable("routes.csv","header,csv");
 }
@@ -55,13 +48,9 @@ void draw()
       text(name, mouseX+5, mouseY-5);
     }
   
-  // Set the appearance of the data circles.
   fill(192,0,0);
   noStroke();
-  
-  loadLocations();   
-  
-  // Draw user input area
+  loadLocations();     
   strokeWeight(0.1);
   stroke(0);
   fill(255,255,255);
@@ -79,6 +68,7 @@ void draw()
   //else {
   //  drawHelp();
   //}
+  
   if(isFinished == false)
   {
   textInput.draw(10,40);
@@ -88,7 +78,6 @@ void draw()
     loadRoutes();
     drawHelp();
   }
-  
   //loadRoutes();
   //noLoop();
 }

@@ -1,7 +1,6 @@
 void loadRoutes()
 {
   int routeCount = 0;
-  //FIND "Start" LHR and get all possible finish routes.
   for (int row = 0; row<routes.getRowCount(); row++)
   {
     // routes
